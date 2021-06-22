@@ -36,7 +36,7 @@ body {
   background-repeat: no-repeat;
   transition: all 500ms ease-in-out;
 }
-.slide h3 {
+.slide p {
   position: absolute;
   font-size: 24px;
   bottom: 20px;
@@ -47,7 +47,7 @@ body {
 .slide.active {
   flex: 10;
 }
-.slide.active h3 {
+.slide.active p {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
